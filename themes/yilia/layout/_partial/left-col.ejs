@@ -1,6 +1,5 @@
 <div class="overlay">
-		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=80px src="https://music.163.com/outchain/player?type=2&id=<%= theme.musicId %>&auto=<%= theme.auto %>&height=66">
-		</iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="10" width=100% height=52 src="https://music.163.com/outchain/player?type=2&id=427016671&auto=1&height=32"></iframe>
 </div>
 <div class="intrude-less">
 	<header id="header" class="inner">
@@ -16,10 +15,10 @@
 		  <h1 class="header-author"><a href="/"><%=theme.author%></a></h1>
 		</hgroup>
 
-		<% if (theme.subtitle=="true"){ %>
-		<p class="header-subtitle" style="margin-bottom:0.3em"><%=theme.subtitle%></p>
+		<% if (theme.subtitle){ %>
+		<p class="header-subtitle"><%=theme.subtitle%></p>
 		<%}%>
-		
+
 		<nav class="header-menu">
 			<ul>
 			<% for (var i in theme.menu){ %>
@@ -45,7 +44,7 @@
 		</nav>
 	</header>	
 </div>
-<div class="music" style="width: 100%;height: 180px;position: absolute;bottom: 0">
-	
+<div class="music" style="width: 300;height: 52;position: fixed;bottom: 0">
+<!--<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52  src="https://music.163.com/outchain/player?type=2&id=427016671&auto=0&height=32"></iframe>-->
 </div>
 
