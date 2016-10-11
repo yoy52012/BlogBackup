@@ -1,5 +1,5 @@
 <div class="overlay">
-		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=80px src="https://music.163.com/outchain/player?type=2&id=<%= theme.musicId %>&auto=<%= theme.auto %>&height=66">
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=50em src="https://music.163.com/outchain/player?type=2&id=<%= theme.musicId %>&auto=<%= theme.auto %>&height=66">
 		</iframe>
 </div>
 <div class="intrude-less">
